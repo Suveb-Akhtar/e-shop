@@ -50,7 +50,7 @@ const Cart = () => {
               Subtotal{" "}
               <span className="font-titleFont font-bold text-lg">
                 {" "}
-                $ {totalAmt}
+                ₹ {totalAmt}
               </span>
             </p>
             <p className="flex items-start gap-4 text-base">
@@ -62,7 +62,7 @@ const Cart = () => {
             </p>
           </div>
           <p className="font-titelFont font-semibold flex justify-between mt-6">
-            Total <span className="text-xl font-bold">${totalAmt}</span>
+            Total <span className="text-xl font-bold">₹ {totalAmt}</span>
           </p>
           <button
             onClick={handleCheckout}
@@ -77,7 +77,7 @@ const Cart = () => {
                 name="e-shop Online Shopping"
                 amount={totalAmt * 100}
                 label="Pay to shop"
-                description={`Your Payment amount is $${totalAmt}`}
+                description={`Your Payment amount is ${totalAmt}`}
                 token={payment}
                 email={userInfo.email}
               />

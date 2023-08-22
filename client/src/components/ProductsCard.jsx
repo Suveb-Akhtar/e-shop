@@ -45,8 +45,8 @@ const ProductsCard = ({ product }) => {
               className="felx gap-2 transform group-hover:translate-x-24
             transition-transform duration-500 "
             >
-              <p className="line-through text-gray-500">${product.oldPrice}</p>
-              <p className="font-semibold">${product.price}</p>
+              <p className="line-through text-gray-500">₹ {product.oldPrice}</p>
+              <p className="font-semibold">₹ {product.price}</p>
             </div>
             <p
               onClick={() =>

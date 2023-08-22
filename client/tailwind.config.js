@@ -8,12 +8,10 @@ export default {
         bodyFont: "Poppins",
         titleFont: "Nunito Sans",
       },
-      
       boxShadow: {
-        custom:'0 5px 15px rgba(0, 0, 0, 0.06)',
+        custom: "0 5px 15px rgba(0, 0, 0, 0.06)",
       },
     },
-
   },
   plugins: [],
 };
