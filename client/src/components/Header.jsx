@@ -26,7 +26,7 @@ const Header = () => {
               <li
                 className="text-base text-black font-bold hover:text-orange-900
         hover:underline underline-offset-2 decoration-[1px] cursor-pointer
-        duration-300"
+        duration-300 "
               >
                 Home
               </li>
@@ -34,7 +34,7 @@ const Header = () => {
             <li
               className="text-base text-black font-bold hover:text-orange-900
         hover:underline underline-offset-2 decoration-[1px] cursor-pointer
-        duration-300"
+        duration-300 "
             >
               Pages
             </li>
@@ -46,22 +46,24 @@ const Header = () => {
               Shop
             </li>
 
-            <li
-              className="text-base text-black font-bold hover:text-orange-900
+            <Link to="/about">
+              <li
+                className="text-base text-black font-bold hover:text-orange-900
         hover:underline underline-offset-2 decoration-[1px] cursor-pointer
         duration-300"
-            >
-              Element
-            </li>
-           <Link to="/contact">
-           <li
-              className="text-base text-black font-bold hover:text-orange-900
+              >
+                About
+              </li>
+            </Link>
+            <Link to="/contact">
+              <li
+                className="text-base text-black font-bold hover:text-orange-900
         hover:underline underline-offset-2 decoration-[1px] cursor-pointer
         duration-300"
-            >
-              Contact
-            </li>
-           </Link>
+              >
+                Contact
+              </li>
+            </Link>
           </ul>
           <Link to={"/cart"}>
             <div className="relative">

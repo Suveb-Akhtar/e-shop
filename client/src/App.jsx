@@ -13,6 +13,7 @@ import { productsData } from "./api/Api";
 import Product from "./components/Product";
 import Login from "./pages/Login";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 const Layout = () => {
   return (
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact/>,
+      },
+      {
+        path: "/about",
+        element: <About/>,
       },
       {
         path: "/cart",

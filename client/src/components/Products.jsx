@@ -10,10 +10,9 @@ const Products = ({ products }) => {
         </h1>
         <span className="w-20 h-[3px] bg-black"></span>
         <p className="max-w-[700px] text-gray-600 text-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum nemo
-          rerum optio ratione porro quibusdam repudiandae dolore delectus
-          tempora possimus? Minus unde modi ipsum ea incidunt possimus aliquid
-          tempora quibusdam!
+          E- Shop is one of the world's leading ecommerce brands and its
+          internationally recognized for celebrating the essence of classic
+          Worldwide cool looking style.
         </p>
       </div>
       <div className="max-w-screen-xl mx-auto grid grid-cols-4 gap-10 py-10">

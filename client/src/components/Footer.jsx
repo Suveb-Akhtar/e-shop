@@ -20,7 +20,7 @@ const Footer = () => {
         {/* ============ LogoIcon Start here =============== */}
         <div className="flex flex-col gap-7 ">
           <img className="w-32" src={mainlogo} alt="logoLight" />
-          <p className="text-white text-sm tracking-wide">@ SuvebAKhtar.com</p>
+          <p className="text-gray-400 cursor-pointer text-sm tracking-wide">© suvebAkhtar.com</p>
           <img className="w-56" src={paymentLogo} alt="paymentLogo" />
           <div className="flex gap-5 text-lg text-gray-400">
             <a href="https://github.com/Suveb-Akhtar" target="_blank">
@@ -64,7 +64,7 @@ const Footer = () => {
             <p> Suveb Akhtar, Ranchi-India</p>
             <p> Mobile: 9570513938</p>
             <p> Phone: 0098 9949494</p>
-            <p>email: suvebakhtar07@gmail.com</p>
+            <p> Email: suvebakhtar07@gmail.com</p>
           </div>
         </div>
         {/* ============ LocateUs Ends here =============== */}
